@@ -625,6 +625,7 @@ a {
 @media only screen and (max-width: 400px) {
     div.utlimo_bloque {
         margin-top: 185px;
+        margin:0 auto;
     }
     div.dudas_studio {
         width: 200px;

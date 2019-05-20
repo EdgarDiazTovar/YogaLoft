@@ -90,8 +90,8 @@
           <a href="studio.php"><li>Studio</li></a>
           <a href="studio.php#clases"><li>Clases</li></a>
           <a href="#"><li>Contacto</li></a>
-          <a href="eventos.php"><li>Eventos</li></a>
-          <a href="#"><li>Tienda</li></a>
+          <a href="tienda.php"><li>Tienda</li></a>
+          <a href=""><li>Tienda</li></a>
           <a href="#"><li>Mi bolsa</li></a>
         </ul>
       </div>
