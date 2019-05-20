@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #FFF;
+    overflow-x:hidden;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 2900px) {
+    div.menubar{
+        font-family: 'Hind Siliguri', sans-serif;
+        height: 75px;
+        background-color: white;
+        width: 100%;
+        clear: both;
+        float:left;
+        -webkit-box-shadow: 0px 13px 13px -10px rgba(0,0,0,0.54);
+        -moz-box-shadow: 0px 13px 13px -10px rgba(0,0,0,0.54);
+        box-shadow: 0px 13px 13px -10px rgba(0,0,0,0.54);
+        position: fixed;
+        z-index: 9999;
+        /*margin-top: -20px;*/
+    }
+    div.menu_responsive{
+        display: none;
+    }
+    div.logo{
+        text-align: center;
+        /*background-color: blue;*/
+        width: 250px;
+        height: 80px;
+        float: left;
+    }
+    img.imglogo{
+        margin-top: 20px;
+        width: 170px;
+    }
+    div.menuoptions{
+        margin-top: 25px;
+        margin-right: 50px;
+        float: right;
+        /*background-color: red;*/
+    }
+    div.btn_menu{
+        float: left;
+        width: 80px;
+        text-align: center;
+        transition: color 0.2s linear 0.2s;
+    }
+    div.btn_menu:hover{
+        color:#a6d6cb;
+
+    }
+    #menu_1{
+        color: #a6d6cb;
+    }
+    div.contenedor{
+        margin-top: 100px;
+        float: left;
+        clear: both;
+        z-index: -1;
+
+    }
+    div.logos{
+        clear: both;
+        float: left;
+        height: 30px;
+        width: 100%;
+        /*margin-top: -20px;*/
+        /*background-color: red;*/
+    }
+    div.separador{
+        float: left;
+        width: 100px;
+        height: 60px;
+        border-right: 2px solid #000;
+        margin-top: -17px;
+        z-index: 99;
+    }
+    div.logoredes{
+        float: left;
+        width: 40px;
+        /*background-color: blue;*/
+        height: 40px;
+        text-align: center;
+    }
+    img.img_redes{
+        margin-top: 10px;
+        width: 30px;
+
+    }
+    div.populares{
+        clear: both;
+        /*float: left;*/
+        width: 90%;
+        margin: 0 auto;
+        height: 500px;
+        /*background-color: blue;*/
+    }
+    div.titulo_populares{
+        clear: both;
+        float: left;
+        width: 100%;
+        height: 70px;
+        /*background-color: red;*/
+        text-align: center;
+    }
+    div.prod_popular{
+        float: left;
+        width: 33.33%;
+        height: auto;
+    }
+    div.popular_interno1{
+        width: 85%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    div.popular_interno2{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    p.text_popular{
+        font-family: 'Hind Siliguri', sans-serif;   
+        font-size: 30px;
+        margin-top:5px;
+    }
+    img.img_popular{
+        width: 100%;
+    }
+    p.titulo_popular_interno{
+        font-family: 'Hind Siliguri', sans-serif;   
+        font-size: 20px;
+    }
+    p.texto_popular{
+        font-family: 'Hind Siliguri', sans-serif;   
+    }
+    div.seccion_studio{
+        margin-top: 50px;
+        width: 100%;
+        float: left;
+    }
+    img.img_studio{
+        width: 100%;
+        z-index: -1;
+    }
+    div.logo_studio{
+        clear: both;
+        float: left;
+        margin-top: -350px;
+        width: 30%;
+        height: 200px; 
+        /*background-color: blue;*/
+        position: absolute;
+        z-index: 999;
+        text-align: right;
+    }
+    img.img_logo_studio{
+        width: 55%;
+        margin-top: -20px;
+        /*text-align: center;*/
+    }
+    div.texto_studio{
+        font-family: 'Hind Siliguri', sans-serif;
+        width: 23%;
+        line-height: 20px;
+        height: 200px;
+        /*background-color: red;*/
+        float: left;
+        margin-top:-335px;
+        position: relative; 
+        z-index: 999;
+        margin-left: 30%;
+        padding-left: 20px;
+    }
+    p.remarca{
+
+    }
+    div.texto_interno_studio2
+    {
+        border: 2px solid #000;
+        height: 20px;
+        width: 126px;
+        text-align: center;
+    }
+    div.texto_interno_studio3{
+        margin-top: 70px;
+        width: 100%;
+    }
+    div.dudas_studio{
+        width: 250px;
+    }
+    img.wa_studio{
+        float: left;
+        margin-top: 5px;
+        width: 10%;
+    }
+    div.seccion_clases{
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 100%;
+        /*background-color: gray;*/
+    }
+    div.titulo_clases{
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    img.img_clases_titulo{
+        width: 40%;
+    }
+    img.img_clases{
+        width: 20%;
+    }
+
+
+    ul{
+        list-style: none outside none;
+        padding-left: 0;
+        margin: 0;
+    }
+    .demo .item{
+        clear: both;
+        float: left;
+        margin-bottom: 60px;
+    }
+    .content-slider li{
+        background-color: #ed3020;
+        text-align: center;
+        color: #FFF;
+    }
+    .content-slider h3 {
+        margin: 0;
+        padding: 70px 0;
+    }
+    .demo{
+        width: 800px;
+    }
+    div.utlimo_bloque{
+        /*margin-top: 130px;*/
+        width: 100%;
+        float: left;
+        clear: both;
+        height: auto;
+        /*background-color: green;*/
+    }
+    div.titulo_ultimobloque{
+        width: 100%;
+        float:left;
+        clear: both;
+        height: 50px;
+        text-align: center;
+    }
+    p.ultimo_titulo{
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 24px;
+    }
+    p.ultimo_subtitulo{
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 18px;
+        margin-top: -40px;
+    }
+    .lightwidget-widget{
+        margin-top: 30px;
+    }
+    footer{
+        font-family: 'Hind Siliguri', sans-serif;
+        clear: both;
+        float: left;
+        bottom: 0;
+        width: 100%;
+        height: 40px;   
+        text-align: center;
+        font-size: 14px;
+        padding-top: 15px;
+    }
+    div.insta_normal{
+        display: block;
+    }
+    div.insta_responsive{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1720px) {
+    div.utlimo_bloque {
+        /*margin-top: 90px;*/
+    }
+}
+@media only screen and (max-width: 1320px) {
+    div.populares {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    div.logo_studio {
+        margin-top: -325px;
+    }
+    div.texto_studio{
+        margin-top: -300px;
+    }
+    div.texto_interno_studio3 {
+        margin-top: 45px;
+    }
+    div.utlimo_bloque {
+        /*margin-top: 40px;*/
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    div.logo_studio {
+        margin-top: -295px;
+    }
+}
+@media only screen and (max-width: 1025px) {
+    div.logo_studio {
+        margin-top: -290px;
+        width: 26%;
+    }
+    div.utlimo_bloque {
+        margin-top: 0px;
+    }
+    div.logo_studio {
+        margin-top: -259px;
+    }
+    div.texto_studio {
+        width: 30%;
+        margin-top: -275px;
+    }
+}
+@media only screen and (max-width: 970px) {
+    div.popular_interno1 {
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 950px) {
+    div.popular_interno2 {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    div.logo_studio{
+        margin-top: -240px;
+        width: 20%;
+    }
+    div.texto_studio {
+        width: 35%;
+        margin-top: -243px;
+        padding-left: 0px;
+        margin-left: 210px;
+    }
+    div.texto_interno_studio3 {
+        margin-top: 17px;
+    }
+
+}
+@media only screen and (max-width: 915px) {
+    div.menubar {
+        height: 60px;
+    }
+    div.logo {
+        width: 20%;
+    }
+    img.imglogo {
+        width: 110px;
+    }
+    div.menuoptions {
+        margin-top: 17px;
+        margin-right: 20px;
+    }
+    div.seccion_studio {
+        margin-top: 10px;
+    }
+    p.text_popular {
+        font-size: 22px;
+    }
+    div.titulo_populares {
+        height: 50px;
+    }
+    img.img_clases_titulo {
+        width: 30%;
+    }
+    div.titulo_clases {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    div.logo_studio {
+        margin-top: -180px;
+        width: 20%;
+    }
+    div.texto_studio{
+        font-size: 11px;
+    }
+    div.texto_studio {
+        margin-top: -215px;
+    }
+    div.popular_interno2 {
+        width: 94%;
+    }
+    div.populares {
+        height: 440px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 825px) {
+    div.seccion_clases {
+        height:430px;
+    }
+    p.ultimo_titulo {
+        font-size: 22px;
+    }
+    div.utlimo_bloque {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    div.menubar {
+        height: 50px;
+    }
+    img.imglogo {
+        margin-top: 14px;
+    }
+    div.menuoptions {
+        margin-top: 12px;
+        margin-right: 0px;
+    }
+    div.btn_menu {
+        width: 60px;
+        font-size: 12px;
+    }
+    p.text_popular {
+        font-size: 14px;
+    }
+    div.titulo_populares {
+        height: 30px;
+    }
+    p.titulo_popular_interno {
+        font-size: 14px;
+    }
+    p.texto_popular {
+        font-size: 12px;
+    }
+    div.populares {
+        height: 350px;
+        font-size: 14px;
+    }
+    div.texto_studio {
+        margin-top: -199px;
+    }
+    div.logo_studio {
+        width: 15%;
+    }
+    img.img_logo_studio {
+        width: 80%;
+        /* text-align: center; */
+    }
+    div.texto_studio {
+        width: 35%;
+        margin-top: -200px;
+        padding-left: 0px;
+        margin-left: 150px;
+    }
+    div.logoredes {
+        width: 30px;
+    }
+    p.ultimo_titulo {
+        font-size: 16px;
+    }
+    p.ultimo_subtitulo {
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    div.insta_normal{
+        display: none;
+    }
+    div.insta_responsive{
+        display: block;
+    }
+    div.utlimo_bloque {
+        margin-top: 150px;
+    }
+}
+@media only screen and (max-width: 625px) {
+    div.separador {
+
+        width: 50px;
+    }
+    img.img_studio {
+        height: 200px;
+    }
+    div.menubar{
+        display: none;
+    }
+    div.menu_responsive{
+        display: block;
+        height: 50px;
+        /*background-color: red;*/
+        z-index: 999;
+        width: 100%;
+    }
+    img.imglogo_responsive{
+        width: 40%;
+        margin-top: 15px;
+    }
+    a.logo_responsive{
+        float: right;
+        text-align: right;
+        margin-right: 50px;
+    }
+    img.img_clases_titulo {
+        width: 50%;
+    }
+    div.utlimo_bloque {
+        margin-top: 90px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    div.utlimo_bloque {
+        margin-top: 460px;
+    }
+    p.ultimo_titulo {
+        font-size: 20px;
+    }
+    p.ultimo_subtitulo {
+        font-size: 19px;
+        margin-top: -25px;
+    }
+    div.div_texto_clases {
+        margin-top: -290px;
+    }
+    p.cantidad_clases {
+        font-size: 40px;
+    }
+    p.costo_clase {
+        font-size: 40px;
+    }
+
+}
+@media only screen and (max-width: 530px) {
+    div.texto_studio {
+        width: 44%;
+        margin-top: -200px;
+        padding-left: 0px;
+        margin-left: 120px;
+    }
+    div.utlimo_bloque {
+        margin-top: 370px;
+    }
+    div.utlimo_bloque {
+        margin-top: 265px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    div.separador{
+        display: none;
+    }
+    div.logos{
+        margin-top: -35px;
+    }
+    div.prod_popular {
+        float: left;
+        width: 100%;
+        height: auto;
+        clear: both;
+        margin-bottom: 20px;
+    }
+    div.texto_studio {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+        padding: 10 0 10 0; 
+    }
+    div.texto_studio {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        float: unset;
+    }
+    div.logo_studio {
+        width: 30%;
+        margin-left: 10%;
+        margin-top: -166px;
+    }
+    div.texto_interno_studio2 {
+        margin: 0 auto;
+    }
+    div.texto_interno_studio3 {
+        margin-top: 17px;
+        margin: 20px auto;
+        width: 40%;
+        float: unset;
+        text-align: center;
+    }
+    div.dudas_studio {
+        width: 155px;
+    }
+    img.wa_studio {
+        float: left;
+        margin-top: 0;
+        width: 25%;
+    }
+    div.titulo_clases {
+        margin-top: 0;
+    }
+    img.img_clases_titulo {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    div.utlimo_bloque {
+        margin-top: 185px;
+    }
+    div.dudas_studio {
+        width: 200px;
+    }
+}

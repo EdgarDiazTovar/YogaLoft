@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #FFF;
+    overflow-x:hidden;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 2900px) {
+    div.cabecera{
+        width: 100%;
+        clear: both;
+        float: left;
+        height: 500px;
+        /*background-color: red;*/
+        z-index: 9999;
+        margin-top: 75px;
+        background-image: url(../img/cabecera.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    img.img_cabecera{
+        width: 100%;
+        text-align: center;
+    }
+    div.separador {
+        float: left;
+        width: 100px;
+        height: 60px;
+        border-right: 2px solid #000;
+        margin-top: 0px;
+
+    }
+    div.logo_cabecera{
+        width: 100%;
+        clear: both;
+        float: left;
+        height: 150px;
+        /*background-color: red;*/
+        z-index: 9999;
+        margin-top: 30px;
+        background-image: url(../img/tienda_logo.png);
+        background-size: 10%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    div.titulo_cabecera{
+        width: 100%;
+        clear: both;
+        float: left;
+        height: 150px;
+        /*background-color: red;*/
+        z-index: 9999;
+        margin-top: 0px;
+        background-image: url(../img/tienda_titulo.svg);
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    div.tiendaPC{
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    div.tiendaMovil{
+        display: none;
+    }
+    div.contenedorProducto1{
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
+    div.contenedorProducto1:before{
+        /*content: '';*/
+        display: block;
+    }
+    .ratio2-1:before {padding-top: 30%;
+    }
+    div.prodImgIzquierda{
+        float: left;
+        width: 31.5%;
+        height: 100%;
+        /*background-color: blue;*/
+    }
+    img.img_producto{
+        width: 100%;
+    }
+    div.infoProducto{
+        width: 36%;
+        /*background-color: gray;*/
+        float: left;
+        
+    }
+    div.descripcion_producto{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 10%;
+    }
+    p.tituloProducto{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    p.leyendaProducto{
+        font-size: 14px;
+    }
+    div.tipoColor{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        width: 90%;
+        margin: 0 auto;    
+        padding-bottom: 10%;    
+    }
+    li.color{
+        margin: 5px;
+        float: left;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    li.Rosa{
+        background-color: rgb(255,132,172);
+    }
+    li.Rosa:hover{
+        background-color: rgba(255,132,172,0.5);
+    }
+
+    li.Azul{
+        background-color: rgb(0,85,159);
+    }
+    li.Azul:hover{
+        background-color: rgba(0,85,159,0.5);
+    }
+
+    li.Morado{
+        background-color: rgb(168,0,198);
+    }
+    li.Morado:hover{
+        background-color: rgba(168,0,198,0.5);
+    }
+
+    li.Verde{
+        background-color: rgb(131,147,57);
+    }
+    li.Verde:hover{
+        background-color: rgba(131,147,57,0.5);
+    }
+    div.talla{
+        width: 90%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    div.precioProducto{
+        font-family: 'Montserrat', sans-serif; 
+        width: 90%;
+        margin: 0 auto; 
+        background-color: red;
+    }
+    div.precio{
+        font-weight: 600;
+        float: left;
+        padding-top: 4%;
+        width: 50%;
+    }
+    div.btnAgrega{
+        float: left;
+        width: 50%;
+        text-align: right;
+    }
+    div.prodImgDerecha{
+        float: left;
+        width: 31.5%;
+
+    }
+
+    button.btnAgregar{
+        background-color: #6fc8b7;
+        display: inline-block;
+        border-radius: 2px;
+        border: none;
+        height: 40px;
+        padding: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        color: white;
+        width: 100%;
+    }
+
+    button.btnAgregar:hover{
+        background-color: #5fafa0;
+    }

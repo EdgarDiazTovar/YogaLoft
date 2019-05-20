@@ -1,0 +1,642 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800');
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background-color: #FFF;
+	overflow-x:hidden;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+@media only screen and (max-width: 2900px) {
+
+
+	div.logo_somos{
+		width: 100%;
+		clear: both;
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin-top: 50px;
+	}
+	img.img_logo_somos{
+		width: 15%;
+	}
+	div.segundo_bloque_somos{
+		float: left;
+		clear: both;
+	}
+	div.descripcion_somos{
+		font-family: 'Montserrat', sans-serif;
+		/*float: left;*/
+		text-align: center;
+		width: 70%;
+		margin: 0 auto;
+		line-height: 1.5;
+	}
+	div.seccion3{
+		/*background-color: red;*/
+		height: 100%;
+		margin-top:50px;
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+	div.seccion3_1{
+		font-family: 'Montserrat', sans-serif;
+		width: 50%;
+		float: left;
+		text-align: center;
+		line-height: 1.5;
+		/*background-color: blue;*/
+		padding-top: 8%;
+	}
+	div.seccion3_2{
+		width: 50%;
+		float: left;
+	}
+	img.img_seccion3{
+		width: 100%;
+	}
+	/**/
+	div.seccion4{
+		/*background-color: green;*/
+		height: 100%;
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+	div.seccion4_1{
+		font-family: 'Montserrat', sans-serif;
+		width: 50%;
+		float: left;
+		padding-top: 8%;
+		text-align: center;
+		line-height: 1.5;
+		/*background-color: gray;*/
+	}
+	div.seccion4_2{
+		width: 50%;
+		float: left;
+	}
+	img.img_seccion4{
+		width: 100%;
+	}
+	p.seccion3_textos{
+		padding-left: 14%;
+		padding-right: 14%;
+	}
+	div.seccion_instructores{
+		width: 100%;
+		clear: both;
+		float: left;
+		height: 250px;
+		/*background-color: red;*/
+		text-align: center;
+		margin-top: 50px;
+	}
+	img.titulo_instructores{
+		width: 30%;
+		clear: both;
+	}
+	div.texto_instructores{
+		font-family: 'Montserrat', sans-serif;
+		width: 30%;
+		clear: both;
+		margin: 0 auto;
+		/*background-color: blue;*/
+		height: 50px;
+	}
+	div.seccion_maestros{
+		margin-top: 100px;
+		width: 90%;
+		clear: both;
+		margin: 0 auto;
+		/*background-color: red;*/
+	}
+	div.maestros1{
+		width: 80%;
+		margin: 0 auto;
+		clear: both;
+		/*background-color: blue;*/
+	}
+	div.maestros1_1{
+		width: 50%;
+		float: left;
+		text-align: center;
+	}
+	img.img_maestros{
+		width: 80%;
+	}
+	div.texto_maestro{
+		font-family: 'Montserrat', sans-serif;
+		width: 80%;
+		text-align: left;
+		margin: 0 auto;
+	}
+	p.nombre_maestro{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+		font-weight: 600;
+	}
+	p.red_maestro{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 10px;
+		margin-top: -18px;
+		color: #6fc8b7;
+	}
+	div.margen{
+		clear: both;
+		float: left;
+		height: 50px;
+		width: 100%;
+	}
+
+	div.slider_somos{
+		width: 60%;
+		float: left;
+		height: 350px;
+		background-image: url(../img/fondoazul.svg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+	div.img_slider_somos{
+		float: left;
+		height: 350px;
+		width: 40%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: left;
+
+	}
+	div.slide_tipo_yoga{
+		float: left;
+		height: 390px;
+		/*background-color: red;*/
+		width: 100%;
+	}
+	div.tipos_yoga_titulo{
+		clear: both;
+		float: left;
+		width: 100%;
+		height: 150px;
+		margin-top: 50px;
+		background-image: url(../img/tiposyoga.svg);
+		background-size: 30%;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-bottom: -50px;
+	}
+	#img_somos1{
+		background-image: url(../img/aeroyoga.jpg);
+	}
+	#img_somos2{
+		background-image: url(../img/autorestaurativo.jpg);
+	}
+
+	#img_somos3{
+		background-image: url(../img/aerokids.jpg);
+	}
+
+	#img_somos4{
+		background-image: url(../img/hatha.jpg);
+	}
+
+	#img_somos5{
+		background-image: url(../img/vinyasa.jpg);
+	}
+	#img_somos6{
+		background-image: url(../img/powervinyasa.jpg);
+	}
+	#img_somos7{
+		background-image: url(../img/ashtanga.jpg);
+	}
+	#img_somos8{
+		background-image: url(../img/yogabody.jpg);
+	}
+	p.titulo_slider{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 45px;
+		margin-top: 8%;
+		font-weight: 600;
+		color: #6fc8b7;
+		text-align: center;
+		margin-bottom: -10px;
+	}
+	p.texto_slider{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		margin-top: 16px;
+		color: #6fc8b7;
+		text-align: left;
+		line-height: 21px;
+		margin-left: 10%;
+		padding-right: 10%;
+		font-weight: 600;
+	}
+	div.calendario_titulo{
+		clear: both;
+		float: left;
+		width: 100%;
+		height: 150px;
+		margin-top: 50px;
+		background-image: url(../img/horarios.svg);
+		background-size: 30%;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-bottom: -25px;	
+	}
+	div.horarios{
+		float: left;
+		clear: both;
+		width: 100%;
+		height: 450px;
+		/*background-color: gray;*/
+		margin-top: 30px;
+	}
+	div.divTable{
+		/*border: 1px solid #000;*/
+	}
+	div.divTableBody{
+		width: 45%;
+		margin: 0 auto;
+		clear: both;
+		background-color: red;
+	}
+	div.columna_horas{
+		font-family: 'Montserrat', sans-serif;
+		text-align: left;
+		font-size: 15px;
+		width: 23.9%;
+		/*border: 1px solid #000;*/
+		float: left;
+		height: 50px;
+		color: #999;
+	}
+
+	div.columna_dia_inpar{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 12px;
+		/*border: solid 1px #000;*/
+		float: left;
+		width: 12.5%;
+		/*background-color: green;*/
+		text-align: center;
+		height: 50px;
+		border-left: solid 1px #ddd;
+		color: #aaa;
+		line-height: 16px;
+	}
+	div.columna_dia_par{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 12px;
+		/*border: solid 1px #000;*/
+		float: left;
+		width: 12.5%;
+		background-color: #d7eef121;
+		text-align: center;
+		height: 50px;
+		border-left: solid 1px #ddd	;
+		color:#44a290;
+		line-height: 16px;
+	}
+	div.cabecera_inpar{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 12px;
+		/*border: solid 1px #000;*/
+		float: left;
+		width: 12.5%;
+		/*background-color: green;*/
+		text-align: center;
+		border-left: solid 1px #ddd	 ;
+	}
+	div.cabecera_par{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 12px;
+		/*border: solid 1px #000;*/
+		float: left;
+		width: 12.5%;
+		background-color: #d7eef121;
+		text-align: center;
+		border-left: solid 1px #ddd;
+	}
+	div.cabecera_horas{
+		font-family: 'Montserrat', sans-serif;
+		background-color: #6fc8b7;
+		color:#fff;
+		text-align: left;
+		font-size: 12px;
+		width: 23.9%;
+		/*border: 1px solid #000;*/
+		float: left;
+		line-height: 0px;
+		border-radius: 14px 0px 0px 0px;
+		-moz-border-radius: 14px 0px 0px 0px;
+		-webkit-border-radius: 14px 0px 0px 0px;
+	}
+	.hora{
+		line-height: 0px;
+		color:#44a290;
+		font-size: 10px;
+	}
+	.redondosi{ 
+		border-radius: 14px 0px 0px 0px;
+		-moz-border-radius: 14px 0px 0px 0px;
+		-webkit-border-radius: 14px 0px 0px 0px;
+	}
+
+	.redondodi{
+		border-radius: 0px 14px 0px 0px;
+		-moz-border-radius: 0px 14px 0px 0px;
+		-webkit-border-radius: 0px 14px 0px 0px; 
+
+	}
+	.redondosuperior{
+		border-radius: 14px 14px 0px 0px;
+		-moz-border-radius: 14px 14px 0px 0px;
+		-webkit-border-radius: 14px 14px 0px 0px;
+	}
+	div.divTableRow1{
+		float: left;
+		width: 100%;
+		clear: both;
+		border: solid 1px #ddd;
+
+		/*background-color: gray;*/
+	}
+	p.txt_tbl{
+		margin-left: 10px;
+	}
+	p.txt_tbl1{
+		line-height: 0px;
+	}
+	#img_desaparece{
+		display: none;
+	}
+	div.slider_tiposyoga{
+		clear: both;
+		float: left;
+		margin-top: 50px;
+		width: 100%;
+		height: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 1200px) {
+	div.divTableBody {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	div.seccion3_1 {
+		padding-top: 5%;
+	}
+	div.seccion4_1 {
+		padding-top: 4%;
+	}
+
+}
+
+
+@media only screen and (max-width: 930px) {
+	p.titulo_slider {
+		margin-bottom: 8px;
+		margin-top: 3%;
+	}
+}
+@media only screen and (max-width: 820px) {
+	div.seccion3_1 {
+		padding-top: 0%;
+	}
+	div.seccion4_1 {
+		padding-top: 0%;
+	}
+	p.seccion3_textos {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	p.titulo_slider {
+		margin-bottom: -10px;
+	}
+	p.texto_slider {
+		margin-left: 5%;
+		padding-right: 5%;
+	}
+	div.texto_instructores {
+		width: 70%;
+	}
+	div.seccion_instructores{
+		height: 180px;
+	}
+	div.maestros1 {
+		width: 100%;
+	}
+	div.divTableBody {
+		width: 98%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	div.texto_instructores {
+		width: 50%;
+	}
+	p.texto_slider {
+		font-size: 11px;
+	}
+	p.titulo_slider {
+		font-size: 30px;
+	}
+	div.seccion3 {
+		margin-top: 30px;
+	}
+	div.seccion3_1 {
+		width: 100%;
+		padding-top: 0%;
+	}
+	div.seccion3_2 {
+		width: 100%;
+	}
+
+	div.seccion4_2 {
+		width: 100%;
+		/*margin-top: -206px;*/
+	}
+	div.seccion4_1 {
+		padding-top: 0%;
+		width: 100%;
+	}
+	#img_desaparece1{
+		display: none;
+	}
+	#img_desaparece{
+		display: block;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+	div.logo_somos{
+		margin-top: 25px;
+	}
+	img.img_logo_somos {
+		width: 25%;
+	}
+	div.descripcion_somos {
+		width: 85%;
+	}
+	
+	div.seccion_instructores {
+		height: 190px;
+	}
+	img.titulo_instructores {
+		width: 40%;
+	}
+	div.seccion_maestros {
+		width: 100%;
+	}
+	div.texto_maestro {
+		width: 90%;
+	}
+	img.img_maestros {
+		width: 85%;
+	}
+	div.maestros1 {
+		width: 90%;
+	}
+	div.tipos_yoga_titulo {
+		margin-top: 0;
+		height: 150px;
+		background-size: 40%;
+		margin-bottom: -80px;
+	}
+	div.calendario_titulo {
+		width: 100%;
+		height: 140px;
+		margin-top: 40px;
+		background-size: 40%;
+	}
+	div.divTableBody {
+		width: 98%;
+	}
+	div.tipos_yoga_titulo {
+		height: 125px;
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	div.slider_somos {
+		width: 100%;
+		float: left;
+	}
+	.slider-wrapper2 {
+		height: 580px;	
+	}
+	div.img_slider_somos {
+		height: 280px;
+	}
+	div.columna_horas {
+		width: 18%;
+	}
+	div.cabecera_horas {
+		width: 18%;
+	}
+	div.columna_dia_par {
+		font-size: 11px;
+	}
+	div.columna_dia_inpar {
+		width: 14.3%;
+	}
+	div.cabecera_inpar {
+		width: 14.3%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	
+	div.seccion_instructores {
+		margin-top: 0px;
+	}
+	div.texto_instructores {
+		width: 80%;
+	}
+	div.maestros1_1 {
+		width: 100%;
+	}
+	div.slider_somos {
+		height: 255px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	p.titulo_slider {
+		font-size: 20px;
+	}
+	p.texto_slider {
+		font-size: 11px;
+		line-height: 15px;
+		font-weight: 400;
+		margin-top: 7px;
+	}
+	div.slider_somos {
+		height: 280px;
+	}
+}
+
+@media only screen and (max-width: 435px) {
+	p.txt_tbl {
+		margin-left: 5px;
+		font-size: 12px;
+	}
+	div.columna_horas {
+		width: 15%;
+	}
+	div.cabecera_horas {
+		width: 15%;
+	}
+	div.cabecera_par {
+		width: 13.5%;
+	}
+	div.cabecera_inpar {
+		width: 14%;
+	}
+	div.a_inpar {
+		width: 14%;
+	}
+	div.columna_dia_par {
+		width: 13.5%;
+	}
+	div.columna_dia_inpar {
+		width: 14%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	div.cabecera_inpar {
+		font-size: 11px;
+	}
+	div.cabecera_par{
+		font-size: 11px;
+	}
+	div.columna_dia_par{
+		height: 62px;
+	}
+	div.columna_dia_inpar{
+		height: 62px;
+	}
+
+}

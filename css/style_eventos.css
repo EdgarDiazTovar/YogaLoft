@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800');
+
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background-color: #FFF;
+	overflow-x:hidden;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+@media only screen and (max-width: 2900px) {
+	div.head_eventos{
+		float: left;
+		clear: both;
+		width: 100%;
+		z-index: 9999;
+	}
+	img.titulo_head_eventos{
+		width: 100%;
+		z-index: 10;
+	}
+	img.text_head_eventos{
+		width: 30%;
+		margin-left: 10%;
+		margin-top: -282px;
+		z-index: 99;
+		padding-bottom: 14px;
+	}
+	div.logos2{
+		clear: both;
+		float: left;
+		height: 40px;
+		width: 100%;
+		margin-top: -25px;
+		/*background-color: red;*/
+	}
+	div.separador2{
+
+		float: left;
+		width: 100px;
+		height: 45px;
+		border-right: 2px solid #000;
+		margin-top: -2px;
+		z-index: -24;
+	}
+
+	div.separador3{
+		width: 100%;
+		float: left;
+		clear: both;
+		height: 50px;
+	}
+	div.eventos_general{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 50px;
+		clear: both;
+		height: -webkit-fill-available;	
+		/*background-color: gray;*/
+		/*margin-bottom: 150px;*/
+	}
+	div.eventos{
+		width: 33.3%;
+		float: left;
+		
+		/*background-color: green;*/
+	}
+	img.img_evento{
+		width: 100%;
+	}
+
+	div.titulo_evento{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+	}
+	p.nombre_evento{
+		font-size: 24px;
+		margin-bottom: 5px;
+		color:#6fc8b7;
+		
+	}
+	p.nombre_maestro{
+		font-size: 10px;
+		margin-bottom: 8px;
+	}
+	p.descripcion_evento{
+		font-size: 16px;
+	}
+	p.fechahoraclase{
+		font-weight: 600;
+		font-size: 18px;
+		color:#6fc8b7;
+	}
+}
+
+@media only screen and (max-width: 1150px){
+	div.eventos_general {
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 1090px){
+	div.eventos_general {
+		width: 90%;
+	}
+	div.eventos{
+		margin-top: 50px;
+		width: 50%;
+	}
+	div.separador3{
+		display: none;
+	}
+}
+@media only screen and (max-width: 830px){
+	div.eventos_general {
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 740px){
+	div.eventos_general {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 680px){
+	div.eventos_general {
+		width: 70%;
+	}div.eventos{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 560px){
+	div.eventos_general {
+		width: 90%;
+	}div.eventos{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 380px){
+	div.eventos_general {
+		width: 100%;
+	}
+}
