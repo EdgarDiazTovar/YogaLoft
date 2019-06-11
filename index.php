@@ -262,11 +262,14 @@ Contenedor Slider
     <a href="https://www.instagram.com/yogaloft.ver/?hl=es-la"><p class="ultimo_subtitulo"><i>yogaloft.ver</i></p></a>
   </div>
   <div class="insta_normal wow fadeInUp">
-    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/18317e43cf455caf932ac6b9b0d93694.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="margin-left:1.5%; width:97%;border:0;overflow:hidden;"></iframe>
+    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/67c7eb16b6b254b4a3b946d705fe6fbb.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="margin-left:1.5%; width:97%;border:0;overflow:hidden;"></iframe>
+
+
+
   </div>
   <!-- Responsive -->
   <div class="insta_responsive wow fadeInUp">
-    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/7bfe15ca4e595e87a470bbc22cc8a3d1.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/0780c7e6c41e5d9e822716cdc30edbe5.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
   </div>
 </div>
 <footer class="footer">

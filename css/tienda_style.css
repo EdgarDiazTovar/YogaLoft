@@ -77,17 +77,60 @@ a {
     div.tiendaMovil{
         display: none;
     }
-    div.contenedorProducto1{
+    .contenedorProducto1 {
         width: 90%;
         clear: both;
         margin: 0 auto;
         position: relative;
         /*background-color: green;*/
     }
-    div.contenedorProducto1:before{
+    .contenedorProducto2
+    {
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
+    .contenedorProducto3
+    {
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    } .contenedorProducto4
+    {
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
+    .contenedorProducto5
+    {
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
+    .contenedorProducto6
+    {
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
+
+
+
+    div.contenedorProducto:before{
         /*content: '';*/
         display: block;
     }
+    
     .ratio2-1:before {padding-top: 30%;
     }
     div.prodImgIzquierda{
@@ -103,6 +146,7 @@ a {
         width: 36%;
         /*background-color: gray;*/
         float: left;
+        padding-top: 2%;
         
     }
     div.descripcion_producto{
@@ -158,6 +202,25 @@ a {
     li.Verde:hover{
         background-color: rgba(131,147,57,0.5);
     }
+    li.Negro{
+        background-color: rgb(0,0,0);
+    }
+    li.Negro:hover{
+        background-color: rgba(0,0,0,0.5);
+    }
+    li.Gris{
+        background-color: rgb(187,187,187);
+    }
+    li.Gris:hover{
+        background-color: rgba(187,187,187,0.5);
+    }
+    li.Cafe{
+        background-color: rgb(191,135,109);
+    }
+    li.Cafe:hover{
+        background-color: rgba(191,135,109,0.5);
+    }
+
     div.talla{
         width: 90%;
         height: 50px;
@@ -203,3 +266,50 @@ a {
     button.btnAgregar:hover{
         background-color: #5fafa0;
     }
+
+    div.prodImgCentro{
+        float: left;
+        width: 31.5%;
+    }
+
+    .radio-group{
+        position: relative;
+    }
+
+    .radio{
+        display:inline-block;
+        width:15px;
+        height: 15px;
+        border-radius: 100%;
+        background-color:#fff;
+        border: 1px solid lightblue;
+        cursor:pointer;
+        margin: 2px 0; 
+    }
+
+    .radio.selected{
+        border-color: #000;
+        background-color: #6fc8b7;
+    }
+
+    div.tallaTxt{
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        width: 15%;
+        float: left;
+        color: #bbb;
+        cursor:pointer;
+    }
+    div.selectedTalla{
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        width: 15%;
+        float: left;
+        color: #000;
+        cursor:pointer;
+    }
+}
