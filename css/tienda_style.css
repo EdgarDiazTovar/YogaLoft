@@ -17,7 +17,8 @@ a {
     color: black;
 }
 
-@media only screen and (max-width: 2900px) {
+@media only screen and (max-width: 2900px) 
+{
     div.cabecera{
         width: 100%;
         clear: both;
@@ -99,7 +100,8 @@ a {
         margin: 0 auto;
         position: relative;
         /*background-color: green;*/
-    } .contenedorProducto4
+    } 
+    .contenedorProducto4
     {
         width: 90%;
         clear: both;
@@ -123,14 +125,45 @@ a {
         position: relative;
         /*background-color: green;*/
     }
-
+    .contenedorProducto7
+    {
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
+    .contenedorProducto8
+    {
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
+    .contenedorProducto9
+    {
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
+    .contenedorProducto10
+    {
+        width: 90%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
 
 
     div.contenedorProducto:before{
         /*content: '';*/
         display: block;
     }
-    
+
     .ratio2-1:before {padding-top: 30%;
     }
     div.prodImgIzquierda{
@@ -147,7 +180,7 @@ a {
         /*background-color: gray;*/
         float: left;
         padding-top: 2%;
-        
+
     }
     div.descripcion_producto{
         text-align: center;
@@ -219,6 +252,29 @@ a {
     }
     li.Cafe:hover{
         background-color: rgba(191,135,109,0.5);
+    }
+    li.Rojo{
+        background-color: rgb(255,0,0);
+    }
+    li.Rojo:hover{
+        background-color: rgba(255,0,0,0.5);
+    }
+    li.NegroRosa{
+        background-color: rgb(255,73,235);
+        border-color: #000;
+    }
+    li.NegroRosa:hover{
+        background-color: rgba(255,73,235,0.5);
+        border-color: rgba(0,0,0,0.5);
+    }
+
+    .doblecolor{
+        margin: 5px;
+        float: left;
+        height: 20px;
+        border-right: 10px solid;
+        border-radius: 50%;
+        width: 10px;
     }
 
     div.talla{
@@ -311,5 +367,294 @@ a {
         float: left;
         color: #000;
         cursor:pointer;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+
+    .contenedorProducto1,
+    .contenedorProducto2,
+    .contenedorProducto3,
+    .contenedorProducto4,
+    .contenedorProducto5,
+    .contenedorProducto6,
+    .contenedorProducto7,
+    .contenedorProducto8,
+    .contenedorProducto9,
+    .contenedorProducto10 {
+        width: 100%;
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        /*background-color: green;*/
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    div.cabecera {
+        height: 440px;
+    }
+    div.logo_cabecera {
+        height: 100px;
+    }
+    div.titulo_cabecera {
+        height: 126px;
+    }
+    .prodImgIzquierda,
+    .prodImgCentro{
+        display: none;
+    }
+
+    .contenedorProducto1,
+    .contenedorProducto2,
+    .contenedorProducto3,
+    .contenedorProducto4,
+    .contenedorProducto5,
+    .contenedorProducto6,
+    .contenedorProducto7,
+    .contenedorProducto8,
+    .contenedorProducto9,
+    .contenedorProducto10 {
+        width: 80%;
+        /*background-color: green;*/
+    }
+    div.infoProducto,
+    div.prodImgDerecha{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 915px) {
+    div.cabecera {
+        margin-top: 40px;
+        height: 400px;
+    }
+    @media only screen and (max-width: 780px) {
+        div.cabecera {
+            height: 330px;
+        }
+        div.descripcion_producto{
+            margin-top: 5%;
+        }
+        .contenedorProducto1,
+        .contenedorProducto2,
+        .contenedorProducto3,
+        .contenedorProducto4,
+        .contenedorProducto5,
+        .contenedorProducto6,
+        .contenedorProducto7,
+        .contenedorProducto8,
+        .contenedorProducto9,
+        .contenedorProducto10 {
+            width: 90%;
+        }
+    }
+
+
+    @media only screen and (max-width: 670px) {
+        div.logo_cabecera {
+            height: 70px;
+        }
+        div.titulo_cabecera {
+            background-size: 30%;
+        }
+        p.tituloProducto{
+            font-size: 15px;
+        }
+        p.leyendaProducto {
+            font-size: 12px;
+        }
+        div.precio {
+            font-size: 14px;
+        }
+
+        button.btnAgregar {
+            height: 31px;
+            width: 80%;
+        }
+        div.tallaTxt {
+            font-size: 14px;
+            margin-top: 4%;
+            width: 23%;
+        }
+        div.tipoColor {
+            font-size: 14px;
+        }
+        div.talla{
+            clear: both;
+        }
+    }
+
+    @media only screen and (max-width: 580px) {
+        div.cabecera {
+            height: 250px;
+            margin-top: 0px;
+        }
+        .contenedorProducto1,
+        .contenedorProducto2, 
+        .contenedorProducto3, 
+        .contenedorProducto4, 
+        .contenedorProducto5,
+        .contenedorProducto6,
+        .contenedorProducto7,
+        .contenedorProducto8,
+        .contenedorProducto9,
+        .contenedorProducto10 {
+            width: 99%;
+
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        div.separador {
+            height: 40px;
+        }
+        img.img_redes {
+            width: 25px;
+
+        }
+        div.titulo_cabecera {
+            height: 95px;
+        }
+        div.logo_cabecera {
+            background-size: 12%;
+        }
+        div.infoProducto{
+            width: 55%;
+        }
+
+        div.prodImgDerecha {
+            width: 45%;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+
+        .contenedorProducto1,
+        .contenedorProducto2, 
+        .contenedorProducto3, 
+        .contenedorProducto4, 
+        .contenedorProducto5,
+        .contenedorProducto6,
+        .contenedorProducto7,
+        .contenedorProducto8,
+        .contenedorProducto9,
+        .contenedorProducto10 {
+            width: 100%;
+
+        }
+        div.infoProducto{
+            width: 100%;
+        }
+
+        div.prodImgDerecha {
+            width: 100%;
+        }
+
+    }
+
+    @media only screen and (max-width: 500px) {
+        div.tiendaMovil
+        {
+            display: block;
+        }
+        div.tiendaPC{
+            display: none;
+        }
+        div.tipoColor {
+         padding-bottom: 0%;
+     }
+     div.talla {
+        height: 40px;
+    }
+    div.tipoColor {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        width: 50%;
+        margin-left: 5%;
+    }
+    div.talla {
+        clear: none;
+        width: 50%;
+        margin-left: 5%;
+        float: left;
+    }
+    div.tipoColor {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        width: 35%;
+        float: left;
+        margin-left: 5%;
+    }
+    div.tallaTxt {
+        margin-top: 9%;
+    }
+
+    div.precioProducto {
+        clear: both;
+
+    }
+    .contenedorProducto2,
+    .contenedorProducto3,
+    .contenedorProducto4,
+    .contenedorProducto5,
+    .contenedorProducto6,
+    .contenedorProducto7,
+    .contenedorProducto8,
+    .contenedorProducto9,
+    .contenedorProducto10 {
+        width: 100%;
+        padding-top: 5%;
+    }
+    div.infoProducto{
+        padding-top: 0%;
+    }
+    div.descripcion_producto {
+        margin-top: 0%;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    div.cabecera {
+        height: 195px;
+
+    }
+    div.logos {
+        margin-top: -7px;
+    }
+    div.logo_cabecera {
+        background-size: 15%;
+        margin-top: 10px;
+    }
+    div.titulo_cabecera {
+        background-size: 35%;
+    }
+    div.tipoColor {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    div.infoProducto {
+        width: 97%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    div.talla {
+        clear: none;
+        width: 45%;
+    }
+    div.tipoColor {
+        width: 45%;
+    }
+    div.cabecera {
+        height: 170px;
+    }
+    div.logo_cabecera {
+        margin-top: 10px;
+    }
+    div.titulo_cabecera {
+        background-size: 50%;
     }
 }

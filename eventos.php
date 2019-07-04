@@ -83,7 +83,7 @@
     <a href="eventos.php">
       <div  class="btn_menu" id="menu_1">Eventos</div>
     </a>
-    <a href="tienda.php">
+    <a href="">
         <div  class="btn_menu">Tienda</div>
       </a>
     <div  class="btn_menu">Mi bolsa</div>
